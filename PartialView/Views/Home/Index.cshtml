@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<!-- Partial View View'larınızın daha düzenli durması için kullanılan bir yöntemdir.
+    Partial view'ler bir sayfayı bölmek ve kod kalitesi anlamında kullanılabilir.
+    Partial View'lar view'ler içerisinden aşağıdaki yöntem ile çağırılır.
+
+
+-->
+@Html.Partial("_marqueepartial")
+
+@Html.Partial("_h1partial")
+
+@Html.Partial("_h6partial")
+
+
+
